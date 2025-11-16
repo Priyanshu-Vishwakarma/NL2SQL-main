@@ -1,0 +1,12 @@
+streamlit
+pandas
+PyMySQL
+SQLAlchemy
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-chroma
+pysqlite3-binary
+cryptography
+
