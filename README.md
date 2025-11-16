@@ -174,6 +174,7 @@ streamlit run app/main.py
 # Authors
 
 -[@Priyanshu-Vishwakarma](https://github.com/Priyanshu-Vishwakarma)
+
 -[@DeepakPrajapati25](https://github.com/DeepakPrajapati25)
 
 
