@@ -1,5 +1,6 @@
 streamlit
 pandas
+
 PyMySQL
 SQLAlchemy
 langchain
@@ -9,4 +10,6 @@ langchain-google-genai
 langchain-chroma
 pysqlite3-binary
 cryptography
+
+
 

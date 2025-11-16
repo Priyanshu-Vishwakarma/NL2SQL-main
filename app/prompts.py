@@ -14,6 +14,10 @@ example_prompt = ChatPromptTemplate.from_messages(
 #     input_variables=["input","top_k"],
 # )
 
+
+
+
+
 # final_prompt = ChatPromptTemplate.from_messages(
 #     [
 #         ("system", "You are a MySQL expert. Given an input question, create a syntactically correct MySQL query to run. Unless otherwise specificed.\n\nHere is the relevant table info: {table_info}\n\nBelow are a number of examples of questions and their corresponding SQL queries."),
@@ -26,6 +30,7 @@ example_prompt = ChatPromptTemplate.from_messages(
 answer_prompt = PromptTemplate.from_template(
     """Given the following user question, corresponding SQL query, and SQL result, answer the user question.
 
+    
 Question: {question}
 SQL Query: {query}
 SQL Result: {result}

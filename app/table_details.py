@@ -8,6 +8,8 @@ from langchain_core.pydantic_v1 import BaseModel, Field
 from langchain_google_genai import ChatGoogleGenerativeAI # Import Gemini Chat model
 import os # Import os to access environment variables
 
+
+
 # Initialize Gemini LLM (using environment variable for API key)
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=os.environ["GEMINI_API_KEY"], temperature=0)
 
@@ -46,6 +48,9 @@ def get_tables(table_response: Table) -> List[str]:
 
 # table_names = "\n".join(db.get_usable_table_names())
 table_details = get_table_details()
+
+
+
 
 # Use ChatPromptTemplate for better prompt formatting with chat models
 from langchain_core.prompts import ChatPromptTemplate

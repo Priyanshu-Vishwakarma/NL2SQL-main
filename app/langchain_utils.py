@@ -13,6 +13,7 @@ from langchain_core.prompts import (
     FewShotChatMessagePromptTemplate,
     MessagesPlaceholder,
 )
+
 from langchain_core.runnables import RunnablePassthrough
 from langchain_google_genai import ChatGoogleGenerativeAI
 

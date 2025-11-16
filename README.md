@@ -52,6 +52,7 @@ NL2SQL/
 | **Database**          | MySQL (via **Aiven**) | Managed SQL database hosting, secure access & scalability |
 | **LLM**               | Gemini API            | Conversational insights & summarization                   |
 
+
 ⚡ Architecture
 <pre>
 flowchart LR
@@ -65,6 +66,9 @@ G --> H[Fetch Results]
 H --> I[Gemini API for Conversational Insights]
 I --> J[Streamlit Visualization]
 </pre>
+
+
+
 
 
 🚀 **Features**
