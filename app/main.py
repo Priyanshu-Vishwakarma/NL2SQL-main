@@ -24,6 +24,7 @@ st.title("Langchain NL2SQL Chatbot") # Update title to reflect Gemini usage
 # Remove OpenAI API key setting and client initialization
 
 
+
 # Remove setting a default OpenAI model
 # if "openai_model" not in st.session_state:
 #     st.session_state["openai_model"] = "gpt-3.5-turbo"
