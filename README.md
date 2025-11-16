@@ -173,14 +173,7 @@ streamlit run app/main.py
 
 # Authors
 
--[@rushikesh-pinge](https://github.com/rushikesh-pinge)
-
--[@DarshanPatidar11](https://github.com/DarshanPatidar11)
-
--[@gagandeep5724](https://github.com/gagandeep5724)
-
--[@Sakshi-Kumari-113](https://github.com/Sakshi-Kumari-113)
-
+-[@Priyanshu-Vishwakarma](https://github.com/Priyanshu-Vishwakarma)
 -[@DeepakPrajapati25](https://github.com/DeepakPrajapati25)
 
 
